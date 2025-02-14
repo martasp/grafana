@@ -8,9 +8,9 @@
           "ApiCallOrderId": 0,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 410,
+            "Message": "GoneError is returned when the requested endpoint was removed.  Status: 410 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -43,9 +43,34 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Datasource": {
+              "Access": "RandomString779",
+              "AccessControl": null,
+              "BasicAuth": false,
+              "BasicAuthUser": "RandomString275",
+              "Database": "RandomString157",
+              "Id": 1,
+              "IsDefault": true,
+              "JsonData": {},
+              "Name": "RandomString952",
+              "OrgId": 1,
+              "ReadOnly": false,
+              "SecureJsonFields": {
+                "RandomString490": true,
+                "RandomString533": true,
+                "RandomString919": true
+              },
+              "Type": "RandomString25",
+              "TypeLogoUrl": "public/img/icn-datasource.svg",
+              "Uid": "RandomString457",
+              "Url": "RandomString149",
+              "User": "RandomString919",
+              "Version": 1,
+              "WithCredentials": true
+            },
+            "Id": 1,
+            "Message": "Datasource added",
+            "Name": "RandomString952"
           },
           "HttpMethod": "post"
         },
@@ -65,9 +90,7 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Created invite for RandomString704"
           },
           "HttpMethod": "post"
         },
@@ -90,9 +113,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022User not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -110,9 +133,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022User not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -134,8 +157,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -182,9 +205,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -207,9 +230,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -230,8 +253,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -247,8 +270,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -264,8 +287,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -281,8 +304,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -291,11 +314,7 @@
           "MethodName": "AdminGetSettings_http_get_Async",
           "ApiCallOrderId": 13,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": {},
           "HttpMethod": "get"
         },
         {
@@ -303,9 +322,30 @@
           "ApiCallOrderId": 14,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "ActiveAdmins": 1,
+            "ActiveDevices": 0,
+            "ActiveEditors": 0,
+            "ActiveSessions": 0,
+            "ActiveUsers": 1,
+            "ActiveViewers": 0,
+            "Admins": 1,
+            "Alerts": 0,
+            "DailyActiveAdmins": 0,
+            "DailyActiveEditors": 0,
+            "DailyActiveSessions": 0,
+            "DailyActiveUsers": 1,
+            "DailyActiveViewers": 0,
+            "Dashboards": 0,
+            "Datasources": 1,
+            "Editors": 0,
+            "MonthlyActiveUsers": 1,
+            "Orgs": 1,
+            "Playlists": 0,
+            "Snapshots": 0,
+            "Stars": 0,
+            "Tags": 0,
+            "Users": 1,
+            "Viewers": 0
           },
           "HttpMethod": "get"
         },
@@ -320,9 +360,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022User not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -337,8 +377,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -348,9 +388,9 @@
           "ApiCallOrderId": 17,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -359,9 +399,7 @@
           "ApiCallOrderId": 18,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Dashboards config reloaded"
           },
           "HttpMethod": "post"
         },
@@ -370,9 +408,7 @@
           "ApiCallOrderId": 19,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Datasources config reloaded"
           },
           "HttpMethod": "post"
         },
@@ -381,9 +417,7 @@
           "ApiCallOrderId": 20,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Plugins config reloaded"
           },
           "HttpMethod": "post"
         },
@@ -405,8 +439,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -429,8 +463,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -453,8 +487,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -482,9 +516,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022NotFound\u0022,\u0022messageId\u0022:\u0022guardian.dashboardNotFound\u0022,\u0022statusCode\u0022:404,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -504,8 +538,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -526,8 +560,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -548,9 +582,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -568,8 +602,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -585,8 +619,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -602,8 +636,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -619,8 +653,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -630,9 +664,8 @@
           "ApiCallOrderId": 32,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "HelpFlags1": 0,
+            "Message": "Help flag set"
           },
           "HttpMethod": "get"
         },
@@ -641,9 +674,9 @@
           "ApiCallOrderId": 33,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -698,8 +731,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -730,8 +763,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -752,9 +785,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022folder not found\u0022,\u0022status\u0022:\u0022not-found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -795,9 +828,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Organization created",
+            "OrgId": 2
           },
           "HttpMethod": "post"
         },
@@ -841,9 +873,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022bad request data\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -870,9 +902,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.publicError.  Status: 401 Response:",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "BadRequestPublicError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -890,9 +922,15 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Result": {
+              "Comment": "",
+              "CreatedAt": 1739560573,
+              "CreatedBy": 1,
+              "DatasourceUid": "RandomString229",
+              "Queries": {},
+              "Starred": false,
+              "Uid": "ced2fapnsdqm8d"
+            }
           },
           "HttpMethod": "post"
         },
@@ -934,8 +972,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -955,8 +993,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -1043,8 +1081,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -1089,8 +1127,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -1110,9 +1148,16 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "AccessControl": null,
+            "AvatarUrl": "",
+            "Id": 2,
+            "IsDisabled": false,
+            "IsExternal": false,
+            "Login": "sa-1-randomstring515",
+            "Name": "RandomString515",
+            "OrgId": 1,
+            "Role": "Admin",
+            "Tokens": 0
           },
           "HttpMethod": "post"
         },
@@ -1129,9 +1174,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -1146,9 +1191,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -1166,9 +1211,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Team created",
+            "TeamId": 1,
+            "Uid": "aed2faqe5b5z4b"
           },
           "HttpMethod": "post"
         },
@@ -1191,8 +1236,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -1213,8 +1258,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1235,8 +1280,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1257,8 +1302,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -1279,8 +1324,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -1306,8 +1351,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -1333,8 +1378,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -1350,9 +1395,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022annotationId is invalid\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -1367,8 +1412,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1384,9 +1429,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -1406,8 +1451,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1423,8 +1468,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1440,9 +1485,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
         },
@@ -1457,8 +1502,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -1474,9 +1519,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022id is invalid\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -1491,8 +1536,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1508,8 +1553,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1530,8 +1575,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1566,9 +1611,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -1583,8 +1628,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1600,8 +1645,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1622,8 +1667,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.publicError.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Dashboard not found\u0022,\u0022messageId\u0022:\u0022publicdashboards.notFound\u0022,\u0022statusCode\u0022:404,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
@@ -1639,8 +1684,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1656,8 +1701,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1667,8 +1712,8 @@
           "ApiCallOrderId": 75,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1684,8 +1729,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1711,8 +1756,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
@@ -1728,8 +1773,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1745,9 +1790,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -1784,8 +1829,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -1801,8 +1846,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -1818,8 +1863,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -1829,9 +1874,9 @@
           "ApiCallOrderId": 84,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -1846,9 +1891,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022annotationId is invalid\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -1917,9 +1962,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022Invalid dashboard UID in annotation request\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -1939,9 +1984,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Result": {
+              "Tags": []
+            }
           },
           "HttpMethod": "get"
         },
@@ -1955,11 +2000,7 @@
               "Name": "includeExpired"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -1967,8 +2008,8 @@
           "ApiCallOrderId": 89,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -1989,8 +2030,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2020,9 +2061,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 200,
+            "Message": "Could not deserialize the response body stream as System.Collections.Generic.ICollection\u00601[[GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.Correlation, DynamicGeneratedClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].  Status: 200 Response:",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2037,8 +2078,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2048,9 +2089,16 @@
           "ApiCallOrderId": 93,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Address": {
+              "Address1": "",
+              "Address2": "",
+              "City": "",
+              "Country": "",
+              "State": "",
+              "ZipCode": ""
+            },
+            "Id": 1,
+            "Name": "Main Org."
           },
           "HttpMethod": "get"
         },
@@ -2059,8 +2107,8 @@
           "ApiCallOrderId": 94,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2070,8 +2118,8 @@
           "ApiCallOrderId": 95,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2081,8 +2129,8 @@
           "ApiCallOrderId": 96,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2098,8 +2146,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2115,8 +2163,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2132,8 +2180,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2159,11 +2207,7 @@
           "MethodName": "GetDashboardTags_http_get_Async",
           "ApiCallOrderId": 101,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -2182,8 +2226,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2204,8 +2248,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2221,8 +2265,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2248,8 +2292,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2265,8 +2309,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2282,9 +2326,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Data source not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2299,8 +2343,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2316,8 +2360,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2333,8 +2377,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2343,11 +2387,25 @@
           "MethodName": "GetDataSources_http_get_Async",
           "ApiCallOrderId": 111,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [
+            {
+              "Access": "RandomString779",
+              "BasicAuth": false,
+              "Database": "RandomString157",
+              "Id": 1,
+              "IsDefault": true,
+              "JsonData": {},
+              "Name": "RandomString952",
+              "OrgId": 1,
+              "ReadOnly": false,
+              "Type": "RandomString25",
+              "TypeLogoUrl": "public/img/icn-datasource.svg",
+              "TypeName": "RandomString25",
+              "Uid": "RandomString457",
+              "Url": "RandomString149",
+              "User": "RandomString919"
+            }
+          ],
           "HttpMethod": "get"
         },
         {
@@ -2361,8 +2419,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2378,8 +2436,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2394,11 +2452,7 @@
               "Name": "folder_uid"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": {},
           "HttpMethod": "get"
         },
         {
@@ -2412,8 +2466,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2444,9 +2498,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022[guardian.dashboardNotFound] failed to get dashboard by UID: Dashboard not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2467,9 +2521,9 @@
           "ApiCallOrderId": 118,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 200,
+            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.GetHomeDashboardResponse.  Status: 200 Response:",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2478,9 +2532,9 @@
           "ApiCallOrderId": 119,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022LDAP is not enabled\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2592,8 +2646,8 @@
           "ApiCallOrderId": 124,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2603,8 +2657,8 @@
           "ApiCallOrderId": 125,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2620,9 +2674,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Organization not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2637,9 +2691,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Organization not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2648,9 +2702,14 @@
           "ApiCallOrderId": 128,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "CookiePreferences": null,
+            "HomeDashboardUID": null,
+            "Language": null,
+            "Navbar": null,
+            "QueryHistory": null,
+            "Theme": null,
+            "Timezone": null,
+            "WeekStart": null
           },
           "HttpMethod": "get"
         },
@@ -2665,8 +2724,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2681,11 +2740,7 @@
               "Name": "org_id"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -2693,9 +2748,9 @@
           "ApiCallOrderId": 131,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 200,
+            "Message": "Could not deserialize the response body stream as System.Collections.Generic.ICollection\u00601[[GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.OrgUserDTO, DynamicGeneratedClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].  Status: 200 Response:",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2714,22 +2769,31 @@
               "Name": "limit"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
           "MethodName": "GetPendingOrgInvites_http_get_Async",
           "ApiCallOrderId": 133,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [
+            {
+              "Code": "5pO7TZMIOMLDZK74xyF33W4OLBCpoF",
+              "CreatedOn": "ScrubbedDateTimeOffset",
+              "Email": "RandomString704",
+              "EmailSent": false,
+              "EmailSentOn": "ScrubbedDateTimeOffset",
+              "Id": 1,
+              "InvitedByEmail": "admin@localhost",
+              "InvitedByLogin": "admin",
+              "InvitedByName": "",
+              "Name": "RandomString882",
+              "OrgId": 1,
+              "Role": 2,
+              "Status": "InvitePending",
+              "Url": "http://localhost:3000/invite/5pO7TZMIOMLDZK74xyF33W4OLBCpoF"
+            }
+          ],
           "HttpMethod": "get"
         },
         {
@@ -2743,8 +2807,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2760,8 +2824,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2777,8 +2841,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2811,9 +2875,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.publicError.  Status: 401 Response:",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundPublicError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -2822,8 +2886,8 @@
           "ApiCallOrderId": 139,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2839,8 +2903,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -2850,9 +2914,9 @@
           "ApiCallOrderId": 141,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2861,9 +2925,9 @@
           "ApiCallOrderId": 142,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2878,8 +2942,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2900,9 +2964,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -2917,8 +2981,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -2934,9 +2998,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -2945,9 +3009,9 @@
           "ApiCallOrderId": 147,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -2962,9 +3026,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2973,9 +3037,9 @@
           "ApiCallOrderId": 149,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -2984,8 +3048,8 @@
           "ApiCallOrderId": 150,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3016,9 +3080,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3027,9 +3091,9 @@
           "ApiCallOrderId": 152,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "ExternalEnabled": true,
+            "ExternalSnapshotName": "Publish to snapshots.raintank.io",
+            "ExternalSnapshotURL": "https://snapshots.raintank.io"
           },
           "HttpMethod": "get"
         },
@@ -3038,9 +3102,23 @@
           "ApiCallOrderId": 153,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "AccessControl": null,
+            "AuthLabels": [],
+            "AvatarUrl": "/avatar/46d229b033af06a191ff2267bca9ae56",
+            "CreatedAt": "ScrubbedDateTimeOffset",
+            "Email": "admin@localhost",
+            "Id": 1,
+            "IsDisabled": false,
+            "IsExternal": false,
+            "IsExternallySynced": false,
+            "IsGrafanaAdmin": true,
+            "IsGrafanaAdminExternallySynced": false,
+            "Login": "admin",
+            "Name": "",
+            "OrgId": 1,
+            "Theme": "",
+            "Uid": "bed2e5vkz5v5sb",
+            "UpdatedAt": "ScrubbedDateTimeOffset"
           },
           "HttpMethod": "get"
         },
@@ -3048,11 +3126,18 @@
           "MethodName": "GetSignedInUserOrgList_http_get_Async",
           "ApiCallOrderId": 154,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [
+            {
+              "Name": "Main Org.",
+              "OrgId": 1,
+              "Role": 3
+            },
+            {
+              "Name": "RandomString727",
+              "OrgId": 2,
+              "Role": 3
+            }
+          ],
           "HttpMethod": "get"
         },
         {
@@ -3060,9 +3145,9 @@
           "ApiCallOrderId": 155,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 200,
+            "Message": "Could not deserialize the response body stream as System.Collections.Generic.ICollection\u00601[[GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.TeamDTO, DynamicGeneratedClient, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]].  Status: 200 Response:",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3071,8 +3156,8 @@
           "ApiCallOrderId": 156,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -3103,9 +3188,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3114,8 +3199,8 @@
           "ApiCallOrderId": 158,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -3125,9 +3210,9 @@
           "ApiCallOrderId": 159,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3159,8 +3244,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3176,8 +3261,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3220,11 +3305,7 @@
           "MethodName": "GetUserAuthTokens_http_get_Async",
           "ApiCallOrderId": 165,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -3238,8 +3319,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3255,8 +3336,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3272,9 +3353,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022LDAP is not enabled\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3288,11 +3369,7 @@
               "Name": "user_id"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -3300,9 +3377,14 @@
           "ApiCallOrderId": 170,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "CookiePreferences": null,
+            "HomeDashboardUID": null,
+            "Language": null,
+            "Navbar": null,
+            "QueryHistory": null,
+            "Theme": null,
+            "Timezone": null,
+            "WeekStart": null
           },
           "HttpMethod": "get"
         },
@@ -3317,8 +3399,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3328,9 +3410,9 @@
           "ApiCallOrderId": 172,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022BadRequest\u0022,\u0022messageId\u0022:\u0022quota.bad-request\u0022,\u0022statusCode\u0022:400,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -3344,11 +3426,7 @@
               "Name": "user_id"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -3362,8 +3440,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -3406,8 +3484,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3416,11 +3494,264 @@
           "MethodName": "ListAllProvidersSettings_http_get_Async",
           "ApiCallOrderId": 176,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [
+            {
+              "Id": "",
+              "Provider": "github",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "allowedOrganizations": "",
+                "apiUrl": "https://api.github.com/user",
+                "authStyle": "",
+                "authUrl": "https://github.com/login/oauth/authorize",
+                "autoLogin": false,
+                "clientId": "some_id",
+                "clientSecret": "",
+                "emailAttributeName": "",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "github",
+                "name": "GitHub",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "user:email,read:org",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": false,
+                "teamIds": "",
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "https://github.com/login/oauth/access_token",
+                "usePkce": false,
+                "useRefreshToken": false
+              },
+              "Source": "system"
+            },
+            {
+              "Id": "",
+              "Provider": "gitlab",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "apiUrl": "https://gitlab.com/api/v4",
+                "authStyle": "",
+                "authUrl": "https://gitlab.com/oauth/authorize",
+                "autoLogin": false,
+                "clientId": "some_id",
+                "clientSecret": "",
+                "emailAttributeName": "",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "gitlab",
+                "name": "GitLab",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "openid email profile",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": false,
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "https://gitlab.com/oauth/token",
+                "usePkce": true,
+                "useRefreshToken": true
+              },
+              "Source": "system"
+            },
+            {
+              "Id": "",
+              "Provider": "google",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "apiUrl": "https://openidconnect.googleapis.com/v1/userinfo",
+                "authStyle": "",
+                "authUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+                "autoLogin": false,
+                "clientId": "some_client_id",
+                "clientSecret": "",
+                "emailAttributeName": "",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "google",
+                "name": "Google",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "openid email profile",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": true,
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "https://oauth2.googleapis.com/token",
+                "usePkce": true,
+                "useRefreshToken": true,
+                "validateHd": true
+              },
+              "Source": "system"
+            },
+            {
+              "Id": "",
+              "Provider": "generic_oauth",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "allowedOrganizations": "",
+                "apiUrl": "",
+                "authStyle": "",
+                "authUrl": "",
+                "autoLogin": false,
+                "clientId": "some_id",
+                "clientSecret": "",
+                "emailAttributeName": "email:primary",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "signin",
+                "idTokenAttributeName": "",
+                "loginAttributePath": "",
+                "name": "OAuth",
+                "nameAttributePath": "",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "user:email",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": false,
+                "teamIds": "",
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "",
+                "usePkce": false,
+                "useRefreshToken": false
+              },
+              "Source": "system"
+            },
+            {
+              "Id": "",
+              "Provider": "azuread",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "allowedOrganizations": "",
+                "apiUrl": "",
+                "authStyle": "",
+                "authUrl": "https://login.microsoftonline.com/\u003Ctenant-id\u003E/oauth2/v2.0/authorize",
+                "autoLogin": false,
+                "clientId": "some_client_id",
+                "clientSecret": "",
+                "emailAttributeName": "",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "forceUseGraphApi": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "microsoft",
+                "name": "Microsoft",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "openid email profile",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": false,
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "https://login.microsoftonline.com/\u003Ctenant-id\u003E/oauth2/v2.0/token",
+                "usePkce": true,
+                "useRefreshToken": true
+              },
+              "Source": "system"
+            },
+            {
+              "Id": "",
+              "Provider": "okta",
+              "Settings": {
+                "allowAssignGrafanaAdmin": false,
+                "allowSignUp": true,
+                "allowedDomains": "",
+                "allowedGroups": "",
+                "apiUrl": "https://\u003Ctenant-id\u003E.okta.com/oauth2/v1/userinfo",
+                "authStyle": "",
+                "authUrl": "https://\u003Ctenant-id\u003E.okta.com/oauth2/v1/authorize",
+                "autoLogin": false,
+                "clientId": "some_id",
+                "clientSecret": "",
+                "emailAttributeName": "",
+                "emailAttributePath": "",
+                "emptyScopes": false,
+                "enabled": false,
+                "groupsAttributePath": "",
+                "hostedDomain": "",
+                "icon": "okta",
+                "name": "Okta",
+                "orgAttributePath": "",
+                "orgMapping": "",
+                "roleAttributePath": "",
+                "roleAttributeStrict": false,
+                "scopes": "openid profile email groups",
+                "signoutRedirectUrl": "",
+                "skipOrgRoleSync": false,
+                "teamIdsAttributePath": "",
+                "teamsUrl": "",
+                "tlsClientCa": "",
+                "tlsClientCert": "",
+                "tlsClientKey": "",
+                "tlsSkipVerifyInsecure": false,
+                "tokenUrl": "https://\u003Ctenant-id\u003E.okta.com/oauth2/v1/token",
+                "usePkce": true,
+                "useRefreshToken": false
+              },
+              "Source": "system"
+            }
+          ],
           "HttpMethod": "get"
         },
         {
@@ -3428,8 +3759,8 @@
           "ApiCallOrderId": 177,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3439,9 +3770,10 @@
           "ApiCallOrderId": 178,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.publicError.  Status: 401 Response:",
-            "TypeName": "ApiException"
+            "Page": 1,
+            "PerPage": 1000,
+            "PublicDashboards": [],
+            "TotalCount": 0
           },
           "HttpMethod": "get"
         },
@@ -3450,8 +3782,8 @@
           "ApiCallOrderId": 179,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -3472,8 +3804,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -3483,9 +3815,10 @@
           "ApiCallOrderId": 181,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Description": null,
+            "DisplayName": null,
+            "Meta": null,
+            "Name": null
           },
           "HttpMethod": "get"
         },
@@ -3500,8 +3833,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -3530,8 +3863,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -3546,11 +3879,7 @@
               "Name": "serviceAccountId"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -3564,8 +3893,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -3594,8 +3923,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -3616,9 +3945,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Annotation not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -3640,8 +3969,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3673,9 +4002,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022bad request data\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "patch"
         },
@@ -3712,8 +4041,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -3736,8 +4065,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -3775,8 +4104,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -3792,8 +4121,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -3822,8 +4151,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3848,8 +4177,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3870,8 +4199,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3889,8 +4218,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -3906,8 +4235,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -3928,8 +4257,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -3945,9 +4274,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022LDAP is not enabled\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -3971,8 +4300,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -4004,8 +4333,8 @@
           "ApiCallOrderId": 203,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4015,9 +4344,9 @@
           "ApiCallOrderId": 204,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022LDAP is not enabled\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -4037,8 +4366,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -4054,8 +4383,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -4071,8 +4400,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 403,
+            "Message": "ForbiddenError is returned if the user/token has insufficient permissions to access the requested resource.  Status: 403 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -4093,8 +4422,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -4137,9 +4466,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
         },
@@ -4164,9 +4493,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
         },
@@ -4186,9 +4515,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -4228,9 +4557,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -4252,8 +4581,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -4276,8 +4605,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -4300,8 +4629,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -4311,9 +4640,18 @@
           "ApiCallOrderId": 217,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 200,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.ServiceResponse13.  Status: 200 Response:",
-            "TypeName": "ApiException"
+            "Keys": [
+              {
+                "Algorithm": null,
+                "CertificateThumbprintSHA1": null,
+                "CertificateThumbprintSHA256": null,
+                "Certificates": null,
+                "CertificatesURL": null,
+                "Key": null,
+                "KeyID": null,
+                "Use": "sig"
+              }
+            ]
           },
           "HttpMethod": "get"
         },
@@ -4328,8 +4666,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -4345,8 +4683,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -4364,9 +4702,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022User auth token not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -4385,11 +4723,7 @@
               "Name": "x_Disable_Provenance"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": {},
           "HttpMethod": "delete"
         },
         {
@@ -4408,9 +4742,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFound  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
         },
@@ -4424,11 +4758,7 @@
               "Name": "uID"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": {},
           "HttpMethod": "delete"
         },
         {
@@ -4451,11 +4781,7 @@
               "Name": "x_Disable_Provenance"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": {},
           "HttpMethod": "delete"
         },
         {
@@ -4473,11 +4799,7 @@
               "Name": "version"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": {},
           "HttpMethod": "delete"
         },
         {
@@ -4501,8 +4823,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4523,9 +4845,11 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "ApiVersion": 1,
+            "ContactPoints": null,
+            "Groups": null,
+            "MuteTimes": null,
+            "Policies": null
           },
           "HttpMethod": "get"
         },
@@ -4540,8 +4864,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "Not found.  Status: 404 Response:",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4567,8 +4891,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "Not found.  Status: 404 Response:  {\u0022message\u0022:\u0022could not find alert rule\u0022,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4589,8 +4913,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "Not found.  Status: 404 Response:  {\u0022message\u0022:\u0022NotFound\u0022,\u0022messageId\u0022:\u0022alerting.alert-rule.notFound\u0022,\u0022statusCode\u0022:404,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4621,8 +4945,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "Not found.  Status: 404 Response:  {\u0022message\u0022:\u0022NotFound\u0022,\u0022messageId\u0022:\u0022alerting.alert-rule.notFound\u0022,\u0022statusCode\u0022:404,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4631,11 +4955,7 @@
           "MethodName": "RouteGetAlertRules_http_get_Async",
           "ApiCallOrderId": 232,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -4673,8 +4993,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022group and folder should not be specified when a single rule is requested\u0022,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4689,11 +5009,7 @@
               "Name": "name"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -4722,9 +5038,11 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "ApiVersion": 1,
+            "ContactPoints": null,
+            "Groups": null,
+            "MuteTimes": null,
+            "Policies": null
           },
           "HttpMethod": "get"
         },
@@ -4739,8 +5057,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "Not found.  Status: 404 Response:  {\u0022message\u0022:\u0022NotFound\u0022,\u0022messageId\u0022:\u0022alerting.notifications.time-intervals.notFound\u0022,\u0022statusCode\u0022:404,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4749,11 +5067,7 @@
           "MethodName": "RouteGetMuteTimings_http_get_Async",
           "ApiCallOrderId": 237,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -4761,9 +5075,23 @@
           "ApiCallOrderId": 238,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "Activetimeintervals": null,
+            "Continue": false,
+            "Groupby": [
+              "grafana_folder",
+              "alertname"
+            ],
+            "Groupinterval": null,
+            "Groupwait": null,
+            "Match": null,
+            "Matchre": null,
+            "Matchers": null,
+            "Mutetimeintervals": null,
+            "Objectmatchers": null,
+            "Provenance": null,
+            "Receiver": "grafana-default-email",
+            "Repeatinterval": null,
+            "Routes": null
           },
           "HttpMethod": "get"
         },
@@ -4772,9 +5100,30 @@
           "ApiCallOrderId": 239,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "ApiVersion": 1,
+            "ContactPoints": null,
+            "Groups": null,
+            "MuteTimes": null,
+            "Policies": [
+              {
+                "Continue": false,
+                "Groupby": [
+                  "grafana_folder",
+                  "alertname"
+                ],
+                "Groupinterval": null,
+                "Groupwait": null,
+                "Match": null,
+                "Matchre": null,
+                "Matchers": null,
+                "Mutetimeintervals": null,
+                "Objectmatchers": null,
+                "OrgId": 1,
+                "Receiver": "grafana-default-email",
+                "Repeatinterval": null,
+                "Routes": null
+              }
+            ]
           },
           "HttpMethod": "get"
         },
@@ -4789,9 +5138,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "PublicError  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
         },
@@ -4800,8 +5149,8 @@
           "ApiCallOrderId": 241,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 200,
+            "Message": "Response was null which was not expected.  Status: 200 Response:",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
@@ -4898,9 +5247,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -4927,9 +5276,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -4965,9 +5314,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -5068,9 +5417,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -5310,9 +5659,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -5344,8 +5693,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022object not found: contact point with uid \u0027RandomString180\u0027 not found\u0022,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "put"
@@ -5387,9 +5736,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -5476,9 +5825,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "ValidationError  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -5506,8 +5855,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022NotFound\u0022,\u0022messageId\u0022:\u0022alerting.notifications.templates.notFound\u0022,\u0022statusCode\u0022:404,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "put"
@@ -5516,11 +5865,7 @@
           "MethodName": "RouteResetPolicyTree_http_delete_Async",
           "ApiCallOrderId": 251,
           "RequestParameters": [],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": {},
           "HttpMethod": "delete"
         },
         {
@@ -5545,9 +5890,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -5642,8 +5987,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 422,
+            "Message": "UnprocessableEntityError  Status: 422 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "get"
@@ -5663,11 +6008,7 @@
               "Name": "limit"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -5675,8 +6016,8 @@
           "ApiCallOrderId": 255,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -5706,11 +6047,7 @@
               "Name": "query"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -5744,9 +6081,10 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Page": 969,
+            "PerPage": 3051,
+            "ServiceAccounts": [],
+            "TotalCount": 0
           },
           "HttpMethod": "get"
         },
@@ -5761,9 +6099,10 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "OrgUsers": [],
+            "Page": 1,
+            "PerPage": 1000,
+            "TotalCount": 0
           },
           "HttpMethod": "get"
         },
@@ -5782,11 +6121,7 @@
               "Name": "limit"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
-          },
+          "Response": [],
           "HttpMethod": "get"
         },
         {
@@ -5839,9 +6174,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 200,
+            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.QueryHistorySearchResponse.  Status: 200 Response:",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "get"
         },
@@ -5850,8 +6185,8 @@
           "ApiCallOrderId": 261,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -5882,9 +6217,10 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Page": 4328,
+            "PerPage": 1000,
+            "Teams": [],
+            "TotalCount": 0
           },
           "HttpMethod": "get"
         },
@@ -5903,11 +6239,21 @@
               "Name": "page"
             }
           ],
-          "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
-          },
+          "Response": [
+            {
+              "AuthLabels": [],
+              "AvatarUrl": "/avatar/46d229b033af06a191ff2267bca9ae56",
+              "Email": "admin@localhost",
+              "Id": 1,
+              "IsAdmin": true,
+              "IsDisabled": false,
+              "LastSeenAt": "ScrubbedDateTimeOffset",
+              "LastSeenAtAge": "\u003C 1 minute",
+              "Login": "admin",
+              "Name": "",
+              "Uid": "bed2e5vkz5v5sb"
+            }
+          ],
           "HttpMethod": "get"
         },
         {
@@ -5915,9 +6261,24 @@
           "ApiCallOrderId": 264,
           "RequestParameters": [],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Page": 1,
+            "PerPage": 1000,
+            "TotalCount": 1,
+            "Users": [
+              {
+                "AuthLabels": [],
+                "AvatarUrl": "/avatar/46d229b033af06a191ff2267bca9ae56",
+                "Email": "admin@localhost",
+                "Id": 1,
+                "IsAdmin": true,
+                "IsDisabled": false,
+                "LastSeenAt": "ScrubbedDateTimeOffset",
+                "LastSeenAtAge": "\u003C 1 minute",
+                "Login": "admin",
+                "Name": "",
+                "Uid": "bed2e5vkz5v5sb"
+              }
+            ]
           },
           "HttpMethod": "get"
         },
@@ -5936,8 +6297,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6024,8 +6385,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6053,8 +6414,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Not found\u0022}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "post"
@@ -6070,9 +6431,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022id is invalid\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "put"
         },
@@ -6118,9 +6479,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -6152,9 +6513,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -6186,9 +6547,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -6220,9 +6581,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
         },
@@ -6258,9 +6619,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -6308,9 +6669,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -6338,9 +6699,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -6355,8 +6716,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6372,9 +6733,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Dashboard not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -6389,8 +6750,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6434,8 +6795,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6451,8 +6812,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -6468,9 +6829,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Dashboard not found\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "delete"
         },
@@ -6485,8 +6846,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "delete"
@@ -6518,8 +6879,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -6577,8 +6938,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -6596,9 +6957,7 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Organization updated"
           },
           "HttpMethod": "put"
         },
@@ -6620,9 +6979,7 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Address updated"
           },
           "HttpMethod": "put"
         },
@@ -6663,8 +7020,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6706,8 +7063,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "post"
@@ -6747,9 +7104,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022id is invalid\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "put"
         },
@@ -6788,9 +7145,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 404,
+            "Message": "The HTTP status code of the response was not expected (404).  Status: 404 Response:  {\u0022message\u0022:\u0022Data source not found\u0022}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "put"
         },
@@ -6815,8 +7172,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -6858,9 +7215,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022bad request data\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "post"
         },
@@ -6912,8 +7269,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -6941,9 +7298,7 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "Address updated"
           },
           "HttpMethod": "put"
         },
@@ -6980,8 +7335,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 400,
+            "Message": "BadRequestError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -7010,8 +7365,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -7039,8 +7394,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -7063,8 +7418,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 500,
+            "Message": "InternalServerError is a general error indicating something went wrong internally.  Status: 500 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -7115,9 +7470,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "StatusCode": 400,
+            "Message": "The HTTP status code of the response was not expected (400).  Status: 400 Response:  {\u0022message\u0022:\u0022bad request data\u0022,}",
+            "TypeName": "ApiException"
           },
           "HttpMethod": "put"
         },
@@ -7145,8 +7500,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 403,
+            "Message": "ForbiddenError is returned if the user/token has insufficient permissions to access the requested resource.  Status: 403 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -7179,9 +7534,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "Could not deserialize the response body stream as GeneratedClientMyNamespaceRuntimeCompilationBuild1673116976.publicError.  Status: 401 Response:",
-            "TypeName": "ApiException"
+            "StatusCode": 400,
+            "Message": "BadRequestPublicError is returned when the request is invalid and it cannot be processed.  Status: 400 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
         },
@@ -7224,8 +7579,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -7317,8 +7672,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
@@ -7367,9 +7722,9 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
-            "TypeName": "ApiException"
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
+            "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "put"
         },
@@ -7394,8 +7749,8 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
+            "StatusCode": 404,
+            "Message": "NotFoundError is returned when the requested resource was not found.  Status: 404 Response:",
             "TypeName": "ApiException\u00601"
           },
           "HttpMethod": "patch"
@@ -7416,9 +7771,7 @@
             }
           ],
           "Response": {
-            "StatusCode": 401,
-            "Message": "UnauthorizedError is returned when the request is not authenticated.  Status: 401 Response:",
-            "TypeName": "ApiException\u00601"
+            "Message": "User updated"
           },
           "HttpMethod": "put"
         },
@@ -7603,7 +7956,7 @@
           "RequestParameters": [],
           "Response": {
             "StatusCode": 401,
-            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Unauthorized\u0022,\u0022messageId\u0022:\u0022auth.unauthorized\u0022,\u0022statusCode\u0022:401,}",
+            "Message": "The HTTP status code of the response was not expected (401).  Status: 401 Response:  {\u0022extra\u0022:null,\u0022message\u0022:\u0022Invalid username or password\u0022,\u0022messageId\u0022:\u0022password-auth.failed\u0022,\u0022statusCode\u0022:401,}",
             "TypeName": "ApiException"
           },
           "HttpMethod": "get"
